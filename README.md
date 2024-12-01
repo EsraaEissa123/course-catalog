@@ -20,7 +20,7 @@ This project is a Dockerized web application for managing a course catalog, incl
 
 The project consists of the following services:
 
-- **Front-end (`front`)**: PHP 8.3 with Apache for serving the front-end.
+- **Front-end (`front`)**: Pure JS.
 - **Back-end API (`api`)**: PHP 8.3 with Apache for handling API requests.
 - **Database (`course-catalog-db-1`)**: MySQL 8 for storing course data.
 - **Reverse Proxy (`course-catalog-reverse-proxy-1`)**: Traefik for routing requests.
